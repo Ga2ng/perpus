@@ -1,0 +1,45 @@
+[
+  {
+    "judul": "BEbAS",
+    "penulis": "YOGISSWARA",
+    "gambar": "https://i.pinimg.com/736x/53/da/bc/53dabc0fc56668f8383507de9dee7b90.jpg"
+  },
+  {
+    "judul": "TERSERAH",
+    "penulis": "aku snediri",
+    "gambar": "https://i.pinimg.com/736x/76/c3/fb/76c3fbfd8467ac598d0e4cb72e71f62a.jpg"
+  },
+  {
+    "judul": "coba lagi",
+    "penulis": "akusnedir",
+    "gambar": "https://i.pinimg.com/736x/ba/fe/07/bafe07027fd7d7ae7e67cb9ed046a3cd.jpg"
+  },
+  {
+    "judul": "TEST",
+    "penulis": "IBUMU",
+    "gambar": "https://i.pinimg.com/736x/a1/94/e3/a194e3b17cce9e645932007eb3a7c9c7.jpg"
+  },
+  {
+    "judul": "test",
+    "penulis": "haha",
+    "gambar": "https://i.pinimg.com/736x/67/ae/29/67ae293b6a46f177befe4ae75ed48fe2.jpg"
+  },
+  {
+    "id": null,
+    "judul": "AVATR",
+    "penulis": "AKUDEWE",
+    "gambar": "https://i.pinimg.com/736x/78/89/3e/78893e1bcf6fa2fdbcfb23e19ae5ddd9.jpg"
+  },
+  {
+    "id": 1,
+    "judul": "apa saja",
+    "penulis": "saya sendiri",
+    "gambar": "https://i.pinimg.com/736x/61/d8/0a/61d80a7a047bcb6db958992b1d68eb99.jpg"
+  },
+  {
+    "id": 2,
+    "judul": "apa saja",
+    "penulis": "saya sendiri",
+    "gambar": "https://i.pinimg.com/736x/61/d8/0a/61d80a7a047bcb6db958992b1d68eb99.jpg"
+  }
+]

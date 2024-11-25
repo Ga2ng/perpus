@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Anime Template" />
+    <meta name="keywords" content="Anime, unica, creative, html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Perpustakaan</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- FontAwesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      #navbar {
+        transition: top 0.3s ease-in-out;
+      }
+
+      .card {
+        height: 100%;
+      }
+
+      .card-img-top {
+        height: 480px;
+        object-fit: cover;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body class="bg-dark">
+    <!-- Header Section Begin -->
+    <header id="navbar" class="header bg-black py-3 fixed-top">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Logo -->
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="header__logo">
+              <a
+                href="./index.html"
+                class="d-flex text-decoration-none text-white"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/1661/1661858.png"
+                  alt="Logo"
+                  class="img-fluid"
+                  style="height: 40px; width: auto"
+                />
+                <h3>Perpustakaan</h3>
+              </a>
+            </div>
+          </div>
+
+          <!-- Navigation Menu -->
+          <div class="col-lg-8 d-none d-lg-block">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">Homepage</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Categories
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="category_fiksi.html"
+                        >Fiksi</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="category_nonfiksi.html"
+                        >Non Fiksi</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutme.html">About Me</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- Search and Profile Icons -->
+          <div class="col-lg-2 col-md-8 col-6 text-end">
+            <div class="header__right d-flex justify-content-end">
+              <a href="#" class="text-white me-3">
+                <span class="bi bi-search"></span>
+              </a>
+              <a href="./login.html" class="text-white">
+                <span class="bi bi-person"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="mt-5 pt-5">
+      <div class="container my-5 text-white">
+        <!-- Header -->
+        <div class="text-center mb-4">
+          <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <!-- Slide 1 -->
+              <div class="carousel-item active position-relative">
+                <!-- Gambar Hero -->
+                <img
+                  src="img/perpus.jpg"
+                  class="img-fluid w-100"
+                  alt="Hero Image"
+                  style="height: 600px; object-fit: cover"
+                />
+                <!-- Overlay dengan Teks -->
+                <div
+                  class="hero__overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center"
+                  style="background: rgba(0, 0, 0, 0.5)"
+                >
+                  <div class="container text-center">
+                    <div class="hero__text text-white">
+                      <h2 class="fw-bold">
+                        " BETWEEN THE PAGES OF A BOOK IS A LOVELY PLACE TO BE "
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="carousel-item position-relative">
+                <!-- Gambar Hero -->
+                <img
+                  src="img/perpus2.jpg"
+                  class="img-fluid w-100"
+                  alt="Hero Image"
+                  style="height: 600px; object-fit: cover"
+                />
+                <!-- Overlay dengan Teks -->
+                <div
+                  class="hero__overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center"
+                  style="background: rgba(0, 0, 0, 0.5)"
+                >
+                  <div class="container text-center">
+                    <div class="hero__text text-white">
+                      <h2 class="fw-bold">
+                        " THE LIBRARY IS AN ARENA OF POSSIBILITY, OPENING BOTH A
+                        WINDOW INTO THE SOUL AND DOOR UNTO THE WORLD. "
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="carousel-item position-relative">
+                <!-- Gambar Hero -->
+                <img
+                  src="img/perpus3.jpg"
+                  class="img-fluid w-100"
+                  alt="Hero Image"
+                  style="height: 600px; object-fit: cover"
+                />
+                <!-- Overlay dengan Teks -->
+                <div
+                  class="hero__overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center"
+                  style="background: rgba(0, 0, 0, 0.5)"
+                >
+                  <div class="container text-center">
+                    <div class="hero__text text-white">
+                      <h2 class="fw-bold">
+                        " A ROOM WITHOUT BOOKS IS LIKE BODY WITHOUT A SOUL. "
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Carousel Controls -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#heroCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#heroCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <h3 class="mt-3">Buku Non Fiksi</h3>
+          <script>
+            const now = new Date();
+
+            const hariNama = now.toLocaleString("default", { weekday: "long" }); // Nama hari (contoh: Senin)
+            const hari = now.getDate();
+            const bulan = now.toLocaleString("default", { month: "long" });
+            const tahun = now.getFullYear();
+
+            document.write(`${hariNama}, ${hari} ${bulan} ${tahun}`);
+          </script>
+        </div>
+
+        <!-- Switch and Sort -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="stockSwitch" />
+            <label class="form-check-label" for="stockSwitch">Stok</label>
+          </div>
+          <div>
+            <select class="form-select w-auto">
+              <option selected>Buku Terbaru</option>
+              <option value="1">Buku Terlama</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Book Cards -->
+        <div class="row">
+          
+          <!-- <div class="col-md-3 mb-3">
+            <div class="card h-100">
+              <img
+                src="img/bukunonfiksi1.jpg"
+                class="card-img-top"
+                alt="One Piece"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-truncate">Ki Hadjar Dewantara</h5>
+                <p class="card-text">syaifuk Hermawan</p>
+                <div class="btn btn-primary">Read Now</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-3 mb-3">
+            <div class="card h-100">
+              <img
+                src="img/bukunonfiksi2.jpg"
+                class="card-img-top"
+                alt="One Piece"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-truncate">Filosodi Teras</h5>
+                <p class="card-text">Henry Manampiring</p>
+                <div class="btn btn-primary">Read Now</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-3 mb-3">
+            <div class="card h-100">
+              <img
+                src="img/bukunonfiksi3.png"
+                class="card-img-top"
+                alt="One Piece"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Gus Dur</h5>
+                <p class="card-text">Muhammad Rifai</p>
+                <div class="btn btn-primary">Read Now</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-3 mb-3">
+            <div class="card h-100">
+              <img
+                src="img/bukunonfiksi4.jpg"
+                class="card-img-top"
+                alt="One Piece"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Soekarno</h5>
+                <p class="card-text">Taufik Adi Susilo</p>
+                <div class="btn btn-primary">Read Now</div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+
+        <!-- Add Book Button -->
+        <div class="text-end mt-4">
+          <button class="btn btn-success">Tambah Buku</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Begin -->
+    <footer class="footer bg-black text-light py-5">
+      <div class="container">
+        <!-- Scroll to Top Button -->
+        <div class="text-center mb-4">
+          <a
+            href="#"
+            id="scrollToTopButton"
+            class="btn btn-outline-light rounded-circle"
+          >
+            <i class="fa fa-arrow-up"></i>
+          </a>
+        </div>
+
+        <div class="row align-items-center">
+          <!-- Logo -->
+          <div class="col-lg-3 text-center text-lg-start mb-3 mb-lg-0">
+            <div class="footer__logo">
+              <a
+                href="./index.html"
+                class="d-flex text-decoration-none text-white"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/1661/1661858.png"
+                  alt="Logo"
+                  style="height: 40px; width: auto"
+                />
+                <h3>Perpustakaan</h3>
+              </a>
+            </div>
+          </div>
+
+          <!-- Navigation -->
+          <div class="col-lg-6 mb-3 mb-lg-0">
+            <div class="footer__nav text-center">
+              <ul class="list-inline m-0">
+                <li class="list-inline-item mx-3">
+                  <a href="./index.html" class="text-decoration-none text-light"
+                    >Homepage</a
+                  >
+                </li>
+                <li class="list-inline-item mx-3">
+                  <a href="aboutme.html" class="text-decoration-none text-light"
+                    >About Me</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Copyright -->
+          <div class="col-lg-3 text-center text-lg-end">
+            <p class="small m-0">
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              All rights reserved | Made with
+              <i class="fa fa-heart text-danger"></i> by
+              <a
+                href="https://colorlib.com"
+                target="_blank"
+                class="text-decoration-none text-light"
+                >Colorlib</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
